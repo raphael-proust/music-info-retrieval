@@ -1,0 +1,10 @@
+# Music Information Retrieval
+
+## Set up
+
+- Install opam
+- `opam install dune yojson`
+- Install node/npm
+- `npm install @tonejs/midi`
+- `make`
+- `cat <some-midi-file> | ./m2j | ./j`
